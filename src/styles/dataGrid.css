@@ -1,0 +1,15 @@
+
+.grid_box {
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    opacity: 0.7;
+    backdrop-filter: contrast(0.5);
+} 
+
+.product-image-wrapper{
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    backdrop-filter: contrast(0.5);
+}

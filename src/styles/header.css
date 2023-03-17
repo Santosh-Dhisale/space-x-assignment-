@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .background{
+    background-repeat: no-repeat;
+    background: cover;
+    width: 100%;
+    padding: 50px;
+  }
+
+  .main-containt{
+    height: 350px;
+    width: 100%;
+    margin-top: -5px;
+  }
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .logo{
+    margin-left: 50px;
+  }
+  .nav_link{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 100px;
+  }
+
+  .nav_link a {
+    color: #101010;
+    padding: 20px;
+   text-align: center;
+   margin-top: 5px;
+  } 
+  .nav_link a:hover{
+    color: #848495;
+    transition: 2s;
+  }
+  .hide{
+    /* display: none; */
+  }
+  
+  a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 22px;
+    width: 170px;
+    font-weight: 500;
+    }
+  .hamburger{
+    cursor: pointer;
+    display: none;
+  }
+  .line{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin:5px;
+    background-color: #101010;
+  }
+  .role{
+    font-size: 80px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .role p {
+    margin-top: 25px;
+  }
+  .description{
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+   .name{
+    margin-left: 50px;
+    margin-top: 155px;
+    font-weight: 300;
+  } 
+  .mail{
+    margin-top: 80px;
+  
+  }
+  .btn-3{
+    padding: 5px;
+  }
+
+  .btn1{
+    color: #80827b;
+  }
+  .btn2 button{
+    padding: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+    color: aliceblue;
+    background-color: #101010;
+  }
+  /* .two-btn {
+    margin-left: 300px;
+  } */
+  .start{
+    margin-left: 50px;
+    position: absolute;
+  }
+  .content2{
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .three-content{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-right: 180px;
+    margin-top: 70px;
+  }
+  .content-three{
+    background-color: #ecf0f1;
+    border: 1px solid black;
+    width: 300px;
+    padding: 25px;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-right: 140px;
+    border: none;
+    color: #002856;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background: url("/topography.webp"); */
+  }
+  .content-three h6{
+    line-height: 50px;
+    text-align: center;
+    background-color: #f3fbfd;
+  }
+  .content-three h2{
+    text-align: center;
+  }
+  .main-cont-13{
+    height: 600px;
+    padding-bottom: 70px;
+    margin-top: -140px;
+  }
+  .content-13{
+    margin-top: 240px;
+    text-align: center;
+    font-size: 15px;
+    width: 1600px;
+    color: #8c999e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .top{
+    margin-top: -200px;
+  }
+  .pass-1-left{
+    padding-top: 50px;
+    padding-left: 40px;
+    height: 400px;
+    margin-left: -25px;
+    width: 600px;
+    background-color: #f3fbfd;
+  }
+  .two-passage{
+    /* text-align: center; */
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 25px;
+    font-size: 18px;
+    color: #002856;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .pass-1-right{
+    padding-top: 50px;
+    height: 400px;
+    margin-left: 25px;
+    width: 600px;
+    padding-left: 40px;
+    background-color: #f3fbfd;
+  }
+  .two-passage h5 {
+    padding: 15px;
+  }
+  .two-passage h4{
+    padding: 15px;
+    padding-right: 250px;
+  }
+  .section-three{
+    margin-top: 50px;
+  }
+  .main-content-15 {
+    margin-left: 215px;
+    margin-top: 90px;
+  }
+  .send-btn button{
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    border: none;
+    background-color: #ecf0f1;
+  }
+  .message input{
+    padding-bottom: 100px;
+    padding-right: 150px;
+    padding-top: 10px;
+  }
+
+  /* @media  (max-width:460px){
+    
+    
+    .nav_link{
+        position: static;
+        background: none;
+        display: flex;
+        width: auto;
+    }
+    .name{
+      margin-left: 200px;
+      display: block;
+    }
+    .description{
+      display: block;
+      margin-top: 50px;
+    } 
+    .two-btn {
+      margin-left: 0px;
+    }
+  } */
